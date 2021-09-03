@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Playfair+Display:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: relative;
+    width: 1440px;
+    height: 1159px;
+
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+span{
+    font-family: "lora";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+
+    text-align: center;
+
+    color: #828282;
+}
+p{
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #333333;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1{
+    position: absolute;
+    width: 93px;
+    height: 36px;
+    left: 320px;
+    top: 53px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #4F4F4F;
+}
+.rect{
+    position: absolute;
+    width: 237px;
+    height: 1159px;
+    left: -8.5px;
+    top: -9.07px;
+
+    background: #FAFBFD;
+}
+.img{
+    width: 15px;
+    height: 12px;
+}
+
+/*........ styling the dbtn part.........*/
+
+.dbtn{
+    position: absolute;
+    width: 100px;
+    height: 12px;
+    left: 320px;
+    top: 108px;
+}
+.dbtn1{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 319px;
+    top: 141px;
+
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+
+    color: #3F3F3F;
+}
+.dbtn2{
+    position: absolute;
+    width: 96px;
+    height: 12px;
+    left: 555px;
+    top: 117px;
+}
+.dbtn3{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 555px;
+    top: 141px;
+
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    color: #3F3F3F;
+}
+.dbtn3:hover{
+    background: #AEAEAE;
+}
+.dbtn3:focus{
+    background: #AEAEAE;
+}
+
+/*........ styling the Outline-btn part.........*/
+
+.outline{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    left: 319px;
+    top: 210px;
+}
+.outline1{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 319px;
+    top: 246px;
+
+    background: white;
+    border: 1px solid #3D5AFE;
+    border-radius: 6px;
+
+    color: #3D5AFE;
+}
+.outline2{
+    position: absolute;
+    width: 96px;
+    height: 12px;
+    left: 555px;
+    top: 222px;
+}
+.outline3{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 555px;
+    top: 246px;
+
+    background: white;
+    border: 1px solid #3D5AFE;
+    border-radius: 6px;
+    color: #3D5AFE;
+}
+.outline3:hover{
+    background: rgba(41, 98, 255, 0.1);
+}
+.outline3:focus{
+    background: rgba(41, 98, 255, 0.1);
+}
+
+/*........ styling the text-btn part.........*/
+
+.text{
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    left: 319px;
+    top: 320px;
+}
+.text1{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 319px;
+    top: 357px;
+
+    background: white;
+
+    color: #3D5AFE;
+}
+.text2{
+    position: absolute;
+    width: 96px;
+    height: 12px;
+    left: 555px;
+    top: 327px;
+}
+.text3{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 555px;
+    top: 351px;
+
+    background: white;    
+    border-radius: 6px;
+    color: #3D5AFE;
+}
+.text3:hover{
+    background: rgba(41, 98, 255, 0.1);
+}
+.text3:focus{
+    background: rgba(41, 98, 255, 0.1);
+}
+
+/*........ styling the disabled shadow-btn part.........*/
+
+.dsp{
+    position: absolute;
+    width: 164px;
+    height: 12px;
+    left: 319px;
+    top: 422px;
+
+    color: #333333;
+}
+.dsbtn1{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 319px;
+    top: 453px;
+
+    background: #3D5AFE;
+    border-radius: 6px;
+    color: white;
+}
+
+/*........ styling the disabled-btn part.........*/
+
+.disp{
+    position: absolute;
+    width: 134px;
+    height: 12px;
+    left: 319px;
+    top: 528px;
+}
+.disbtn{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 319px;
+    top: 558px;
+
+    background: #E0E0E0;
+    border-radius: 6px;
+    color: #9E9E9E;
+}
+.disp1{
+    position: absolute;
+    width: 204px;
+    height: 12px;
+    left: 558px;
+    top: 528px;
+}
+.disbtn1{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 558px;
+    top: 558px;
+
+    background: white;
+    color: #9E9E9E;
+}
+
+/*........ styling the icon-btn part.........*/
+
+.iconp{
+    position: absolute;
+    width: 260px;
+    height: 12px;
+    left: 319px;
+    top: 633px;
+}
+.iconbtn{
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    left: 319px;
+    top: 663px;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+    color: white;
+}
+.iconp1{
+    position: absolute;
+    width: 260px;
+    height: 12px;
+    left: 651px;
+    top: 633px;
+}
+.iconbtn1{
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    left: 651px;
+    top: 663px;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+    color: white;
+}
+
+/*........ styling the size-btn part.........*/
+
+.sizep{
+    position: absolute;
+    width: 140px;
+    height: 12px;
+    left: 319px;
+    top: 740px;
+}
+.sizebtn{
+    position: absolute;
+    width: 73px;
+    height: 32px;
+    left: 319px;
+    top: 773px;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+    color: white;
+}
+.sizep1{
+    position: absolute;
+    width: 140px;
+    height: 12px;
+    left: 523px;
+    top: 740px;
+}
+.sizebtn1{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 523px;
+    top: 771px;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    color: white;
+}
+.sizep2{
+    position: absolute;
+    width: 140px;
+    height: 12px;
+    left: 731px;
+    top: 740px;
+    }
+.sizebtn2{
+    position: absolute;
+    width: 93px;
+    height: 42px;
+    left: 731px;
+    top: 768px;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+    color: white;
+}
+
+/*........ styling the color-btn part.........*/
+
+.colorp{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    left: 322px;
+    top: 847px;
+}
+.colorbtn{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 319px;
+    top: 879px;
+
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+}
+.colorp1{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    left: 523px;
+    top: 847px;
+}
+.colorbtn1{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 523px;
+    top: 879px;
+    
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    border-radius: 6px;
+}
+.colorp2{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    left: 731px;
+    top: 847px;
+}
+.colorbtn2{
+    position: absolute;
+    width: 104px;
+    height: 36px;
+    left: 731px;
+    top: 879px;
+
+    background: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    border-radius: 6px;
+}
+.colorp3{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    left: 971px;
+    top: 847px;
+
+}
+.colorbtn3{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 971px;
+    top: 879px;
+
+    background: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    border-radius: 6px;
+}
+
+/*........ styling the hoverColor-btn part.........*/
+
+.hovercolorp{
+    position: absolute;
+    width: 96px;
+    height: 12px;
+    left: 319px;
+    top: 960px;
+}
+.hovercolorbtn{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 319px;
+    top: 984px;
+    border-radius: 6px;
+    
+}
+.hovercolorbtn:hover{
+    background: #AEAEAE;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn:focus{
+    background: #AEAEAE;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn1{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 523px;
+    top: 984px;
+
+    
+    border-radius: 6px;
+}
+.hovercolorbtn1:hover{
+    background: #0039CB;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn1:focus{
+    background: #0039CB;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn2{
+    position: absolute;
+    width: 104px;
+    height: 36px;
+    left: 731px;
+    top: 984px;
+
+    border-radius: 6px;
+}
+.hovercolorbtn2:hover{
+    background: #1C313A;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn2:focus{
+    background: #1C313A;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn3{
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 971px;
+    top: 984px;
+
+    border-radius: 6px;
+}
+.hovercolorbtn3:hover{
+    background: #9A0007;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    border-radius: 6px;
+}
+.hovercolorbtn3:focus{
+    background: #9A0007;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    border-radius: 6px;
+}
+
+/*........ styling footer.........*/
+
+.footer{
+    position: absolute;
+    width: 340px;
+    height: 17px;
+    top: 1118px;
+    left: 322px;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 17px;
+    
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+    color: #A9A9A9;
+}
+#a{
+    color: #2F80ED;
+    font-weight: 600;
+    text-decoration: none;
+}
